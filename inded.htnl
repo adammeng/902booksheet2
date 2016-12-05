@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>书架</title> 
+	<link href="http://www.huawei.com/favicon.ico" type="image/x-icon" rel="icon" />
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/asset.css">   
+  </head>
+  <body>
+   <!--header-->
+   <div class='headwrap'>
+     <div class='container'>
+       
+       <div class='row clearfix' id="head-wrap">
+         
+          <div class='hw-logo fl'>
+            <a href='#' class='logo'>
+              <img src='images/icon_03.png'></img>
+            </a>
+            <a href='#' class='net'>
+                <span></span>
+                运营商网络</a>
+          </div>
+          <div class='header-phone visible-xs-block pull-right'>
+            <button type='button' class='nav-bar-toggle'>
+              <span class='icon-bar'></span>
+              <span class='icon-bar'></span>
+              <span class='icon-bar'></span>
+            </button>
+          </div>
+          <div class='h-nav fr hidden-xs'>
+            <a href='#'><span></span>意见反馈</a>
+            <a href='#'><span></span>English</a>
+            <a href='#'><span></span>返回support</a>
+          </div>
+          <div class='h-navsearch fr '>
+            <div class='nav-search'>
+              <input type='text' class='search-items'></input>
+              <img class='sh-icon'></img>
+            </div>
+            <div class='search-result' style='dispaly:none'></div>
+          </div>
+         </div> 
+         <!--mobile dropdown menu--->
+          <div class='nav-phone hidden-sm hidden-md hidden-lg hidden'>
+             <ul style='display:block'>
+                <li class='device'>意见反馈</li>
+                <li class='english'>English</li>
+                <li class='support'>返回support</li>
+             </ul>
+          </div>
+       </div>
+     </div>
+   <div class="container">
+     <!--banner-->
+     <div id='banner'class="row">
+       <!--暂时没做轮播-->
+      <div class="banner">
+          <img src="image/image-03.png" alt="待定尺寸" class="">
+      </div>
+   </div>
+     <!--main面包屑选项卡-->
+     <div class='main'id="main">
+
+           <div class="row clearfix">
+               <!---一级菜单--->
+               <div id="menu1">
+                   <ul class="clearfix">
+                       <li class="active">波分</li>
+                       <li>微波</li>
+                       <li>MSTP</li>
+                       <li class="clear-border">BITS</li>
+                   </ul>
+               </div>
+               <!---二级菜单--->
+               <div id="menu2">
+                   <ul class="clearfix  hidden-xm">
+                       <li><a>热门推荐</a></li>
+                       <li class="active"><a>产品</a></li>
+                       <li><a>解决方案和技术</a></li>
+                       <li><a>规划</a></li>
+                       <li><a>开局</a></li>
+                       <li><a>维护</a></li>
+                       <li><a>视频</a></li>
+                       <li><a>工具</a></li>
+                   </ul>
+               </div>
+               <!--**********第三级八个模块************-->
+               <div class="content" id="content">
+               <div id="page1">
+                   <div class="row">
+                       <div class="col-md-6 col-sm-12 row">
+                           <div class="col-sm-6">
+                               <img src="image/image-04.png" alt="" id="pic1">
+                               <h1>新手入门</h1>
+                           </div>
+                           <div class="col-sm-6 rt-content ">
+                               <h2 class="theme">新手入门</h2>
+                               <ul class="keywords">
+                                   <li class="keywords">
+                                       <a href="#">addasd</a>
+                                       <a href="#" class="apply"></a>
+                                   </li>
+                                   <li class="keywords">
+                                       <a href="#">addasd</a>
+                                       <a href="#" class="apply"></a>
+                                   </li>
+                                   <li class="keywords">
+                                       <a href="#">addasd</a>
+                                       <a href="#" class="apply"></a>
+                                   </li>
+                                   <li class="keywords">
+                                       <a href="#">addasd</a>
+                                       <a href="#" class="apply"></a>
+                                   </li>
+                               </ul>
+                           </div>
+                       </div>
+                       <div class="col-md-6 col-sm-12 row"id="special">
+                           <div class="col-sm-6">
+                               <img src="image/image-05.png" alt="" id="pic1">
+                               <h1>新手入门</h1>
+                           </div>
+                           <div class="col-sm-6 rt-content ">
+                               <h2 class="theme">新手入门</h2>
+                               <ul class="keywords">
+                                   <li class="keywords">
+                                       <a href="#">addasd</a>
+                                       <a href="#" class="apply"></a>
+                                   </li>
+                                   <li class="keywords">
+                                       <a href="#">addasd</a>
+                                       <a href="#" class="apply"></a>
+                                   </li>
+                                   <li class="keywords">
+                                       <a href="#">addasd</a>
+                                       <a href="#" class="apply"></a>
+                                   </li>
+                                   <li class="keywords">
+                                       <a href="#">addasd</a>
+                                       <a href="#" class="apply"></a>
+                                   </li>
+                               </ul>
+                           </div>
+                       </div>
+                       <div class="col-md-6 col-sm-12 row">
+                           <div class="col-sm-6">
+                               <img src="image/image-06.png" alt="" id="pic1">
+                               <h1>新手入门</h1>
+                           </div>
+                           <div class="col-sm-6 rt-content ">
+                               <h2 class="theme">新手入门</h2>
+                               <ul class="keywords">
+                                   <li class="keywords">
+                                       <a href="#">addasd</a>
+                                       <a href="#" class="apply"></a>
+                                   </li>
+                                   <li class="keywords">
+                                       <a href="#">addasd</a>
+                                       <a href="#" class="apply"></a>
+                                   </li>
+                                   <li class="keywords">
+                                       <a href="#">addasd</a>
+                                       <a href="#" class="apply">申请印刷品</a>
+                                   </li>
+                                   <li class="keywords">
+                                       <a href="#">addasd</a>
+                                       <a href="#" class="apply">申请印刷品</a>
+                                   </li>
+                               </ul>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               <div id="page2">
+                   <div class="row">
+                       <div class="col-sm-12 col-md-6 col-lg-4 osn">
+                           <img src="image/image-07.png" alt="">
+                           <p class="model-title">OSN 9800</p>
+                           <p class="model-detail">面向100G及超100G时代的新一代容量OTN产品，是业界最佳100G/400G OTN品台</p>
+                           <p class="link">
+                               <a href="" id="video">Video</a>
+                               <span></span>
+                               <a href="" id="document">Document</a>
+                           </p>
+                       </div>
+                       <div class="col-sm-12 col-md-6 col-lg-4 osn">
+                           <img src="image/image-08.png" alt="">
+                           <p class="model-title">OSN 9800</p>
+                           <p class="model-detail">面向100G及超100G时代的新一代容量OTN产品，是业界最佳100G/400G OTN品台</p>
+                           <p class="link">
+                               <a href="" id="video">Video</a>
+                               <span></span>
+                               <a href="" id="document">Document</a>
+                           </p>
+                       </div>
+                       <div class="col-sm-12 col-md-6 col-lg-4 osn">
+                           <img src="image/image-09.png" alt="">
+                           <p class="model-title">OSN 9800</p>
+                           <p class="model-detail">面向100G及超100G时代的新一代容量OTN产品，是业界最佳100G/400G OTN品台</p>
+                           <p class="link">
+                               <a href="" id="video">Video</a>
+                               <span></span>
+                               <a href="" id="document">Document</a>
+                           </p>
+                       </div>
+
+                   </div>
+                   <div class="more-model visible-lg-block">
+                       <a href="" class="more">更多</a>
+                       <ul class="models clearfix">
+                           <li>OSN 6800
+                               <span></span>
+                           </li>
+                           <li>OSN 6800
+                               <span></span>
+                           </li>
+                           <li>OSN 6800
+                               <span></span>
+                           </li>
+                           <li>OSN 6800
+                               <span></span>
+                           </li>
+                           <li>OSN 6800
+                               <span></span>
+                           </li>
+                           <li>OSN 6800
+                               <span></span>
+                           </li>
+                           <li>OSN 6800
+                               <span></span>
+                           </li>
+                           <li>OSN 6800
+                               <span></span>
+                           </li>
+                           <li>OSN 6800
+                               <span></span>
+                           </li>
+                           <li>OSN 6800
+                           </li>
+                       </ul>
+                   </div>
+               </div>
+               <div id="page3">
+                   <div class="solution">
+                       <h2>解决方案</h2>
+                       <div class="solution-video row">
+                           <div class="col-sm-12 col-md-4"><div>
+                               <a href=""><img src="image/image-10.png" alt=""></a>
+                               <p>优质视频传输要求网络具备大宽带、低延时、快速业务发放和低维护成本</p>
+                           </div></div>
+                           <div class="col-sm-12 col-md-4 " id="special2"><div>
+                               <a href=""><img src="image/image-11.png" alt=""></a>
+                               <p>优质视频传输要求网络具备大宽带、低延时、快速业务发放和低维护成本</p>
+                           </div></div>
+                           <div class="col-sm-12 col-md-4"><div>
+                               <a href=""><img src="image/image-12.png" alt=""></a>
+                               <p>优质视频传输要求网络具备大宽带、低延时、快速业务发放和低维护成本</p>
+                          </div> </div>
+                       </div>
+                   </div>
+                   <div class="solution">
+                       <h2>技术</h2>
+                       <div class="solution-video row">
+                           <div class="col-sm-12 col-md-4">
+                               <div>
+                               <a href=""><img src="image/image-13.png" alt=""></a>
+                               <p>优质视频传输要求网络具备大宽带、低延时、快速业务发放和低维护成本</p>
+                               </div>
+                           </div>
+                           <div class="col-sm-12 col-md-4 " id="special3">
+                               <div>
+                               <a href=""><img src="image/image-14.png" alt=""></a>
+                               <p>优质视频传输要求网络具备大宽带、低延时、快速业务发放和低维护成本</p>
+                               </div>
+                           </div>
+                           <div class="col-sm-12 col-md-4">
+                               <div>
+                               <a href=""><img src="image/image-15.png" alt=""></a>
+                               <p>优质视频传输要求网络具备大宽带、低延时、快速业务发放和低维护成本</p>
+                               </div>
+                           </div>
+                           <div class="col-sm-12 col-md-4">
+                               <div>
+                                   <a href=""><img src="image/image-16.png" alt=""></a>
+                                   <p>优质视频传输要求网络具备大宽带、低延时、快速业务发放和低维护成本</p>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               <div id="page4">
+                   <div class="col-xs-12 col-md-3 clear-padding-left">
+                        <div class="title">产品速览</div>
+                        <a href="" class="pro-model">OSN9800</a>
+                        <a href="" class="pro-model">OSN9800</a>
+                        <a href="" class="pro-model">OSN9800</a>
+                        <a href="" class="pro-more">更多</a>
+
+                    </div>
+                   <div class="col-xs-12 col-md-3 clear-padding-left">
+                       <div class=" title title-1">产品速览</div>
+                       <a href="" class="pro-model">OSN9800</a>
+                       <a href="" class="pro-model">OSN9800</a>
+                       <a href="" class="pro-model">OSN9800</a>
+                       <a href="" class="pro-more">更多</a>
+
+                   </div>
+                   <div class="col-xs-12 col-md-3 clear-padding-left">
+                       <div class="title title-2">产品速览</div>
+                       <a href="" class="pro-model">OSN9800</a>
+                       <a href="" class="pro-model">OSN9800</a>
+                       <a href="" class="pro-model">OSN9800</a>
+                       <a href="" class="pro-more">更多</a>
+
+                   </div>
+                   <div class="col-xs-12 col-md-3 clear-padding-left">
+                       <div class="title title-3">产品速览</div>
+                       <a href="" class="pro-model">OSN9800</a>
+                       <a href="" class="pro-model">OSN9800</a>
+                       <a href="" class="pro-model">OSN9800</a>
+                       <a href="" class="pro-more">更多</a>
+
+                   </div>
+                   <div class="more-model visible-lg-block">
+                       <a href="" class="more">更多</a>
+                       <ul class="models clearfix">
+                           <li>OSN 6800
+                               <span></span>
+                           </li>
+                           <li>OSN 6800
+                               <span></span>
+                           </li>
+                           <li>OSN 6800
+                               <span></span>
+                           </li>
+                           <li>OSN 6800
+                               <span></span>
+                           </li>
+                           <li>OSN 6800
+                               <span></span>
+                           </li>
+                           <li>OSN 6800
+                               <span></span>
+                           </li>
+                           <li>OSN 6800
+                               <span></span>
+                           </li>
+                           <li>OSN 6800
+                               <span></span>
+                           </li>
+                           <li>OSN 6800
+                               <span></span>
+                           </li>
+                           <li>OSN 6800
+                           </li>
+                       </ul>
+                   </div>
+               </div>
+               <div id="page5"></div>
+               <div id="page6"></div>
+               <div id="page7"></div>
+               <div id="page8"></div>
+           </div>
+           </div>
+
+   </div>
+     <!--footer-->
+     <div class='footer'></div>
+   </div>
+
+
+  
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+	<script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery-1.4.2.min.js"></script>
+    <script src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/jquery.SuperSlide.2.1.1.js"></script>
+	<script src="js/placeholder.js"></script>
+	<script src="js/chosen.jquery.min.js"></script>
+</body>
+</html>
